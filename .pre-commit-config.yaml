@@ -15,7 +15,7 @@ exclude: '.*\.patch'
 repos:
   # Standard hooks
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v5.0.0
     hooks:
       - id: check-added-large-files
       - id: check-ast
@@ -74,7 +74,7 @@ repos:
       - id: ament_copyright
         name: ament_copyright
         description: Check if copyright notice is available in all files.
-        stages: [commit]
+        stages: [Nonepre-commitNone]
         entry: ament_copyright
         args: ["--add-missing", "ROS-Industrial", "apache2"]
         language: system
